@@ -1,0 +1,22 @@
+/* doi mau background */
+body {
+    background-color: antiquewhite;
+}
+
+/* doi mau paragraph bang ID */
+#p1{
+    color: midnightblue;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+/* Hover effect for the paragraph */
+#p1:hover {
+    color: darkorange; /* Changes color when hovered */
+    transform: scale(1.1); /* Slightly enlarges the text */
+  }
+
+#p2:hover {
+    color: #8C1F28 /* Changes color when hovered */
+ }
+ #dream:hover {
+    color: #731702 /* Changes color when hovered */
+ }
