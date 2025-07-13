@@ -1,0 +1,105 @@
+body {
+  background: url('background.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+
+#text {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: lightgray;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#controls {
+  border: 1px black solid;
+  padding: 5px;
+}
+
+#controls_secet{
+  position: fixed;   /* Stay in place even when scrolling */
+  bottom: 0;         /* Align to the bottom edge of the screen */
+  left: 0;           /* Align to the left edge */
+  width: 100%;       /* Stretch across the full screen width */
+
+  /* Optional styling for better visibility */
+  background-color: #333;  /* Dark background */
+  color: white;            /* White text for contrast */
+}
+
+#stats {
+  border: 1px black solid;
+  color: black;
+  padding: 5px;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px black solid;
+  color: white;
+  padding: 5px;
+  background-color: red;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+
+#stick{
+  float: left;
+  display: block;
+}
+
+
+
+#dagger{
+  float: left;
+  display: none;
+}
+
+#Greatsword{
+  float: left;
+  display: none;
+}
+
+#Longsword{
+  float: left;
+  display: none;
+}
+
+/* slime to the right*/
+#slime {
+  display: none; /* hidden the slime  */
+  float: right;
+}
+
+#witch{
+  display: none; 
+  float: right;
+  /*scaleX(-1) = lật gương theo trục X. (gương trái-phải)*/
+  transform: scaleX(-1); /* cú pháp chuẩn (standard CSS).  */ 
+  -webkit-transform: scaleX(-1);/*cú pháp dành cho trình duyệt WebKit cũ: Chrome, Safari, Opera (phiên bản cũ)*/
+}
+
+#dragon {
+  display: none; 
+  float: right;
+}
+
+/*Render do hoa pixel cho tat ca the img*/
+img {
+  image-rendering: pixelated;
+}
+
+audio {
+  position: absolute;
+  left: 815px;
+}
